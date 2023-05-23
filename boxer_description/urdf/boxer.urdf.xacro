@@ -2,6 +2,7 @@
 <robot name="boxer" xmlns:xacro="http://www.ros.org/wiki/xacro">
   <xacro:include filename="$(find boxer_description)/urdf/materials.urdf.xacro"/>
 
+  <link name="world" />
   <!-- The robot's origin, center-bottom of the main chassis -->
   <link name="base_link" />
 
